@@ -21,14 +21,18 @@ form {
 label {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    margin-bottom: 200px;
-    margin-right: 75px;
+    margin-bottom: 40px;
+    margin-right: 60px;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 #inp {
     display: inline-block;
     border-style: solid;
-    border: 3;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 
 }
 
@@ -42,4 +46,14 @@ button {
     font-weight: bold;
     height: 20px;
     width: auto;
+}
+
+.container {
+    width: 400px;
+}
+
+#footer {
+    font-size: large;
+    margin-top: 10px;
+    text-align: center;
 }
