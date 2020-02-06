@@ -28,7 +28,7 @@ class Login extends Component {
 
   handleSubmit = () => {
     const { password, confirmPassword } = this.state;
-    if (password !== confirmPassword) {
+    if (password !== confirmPassword && password === "") {
       alert("Passwords not matching");
     } else {
       alert("Login Successful");
@@ -64,7 +64,7 @@ class Login extends Component {
             <label>Username:</label>
             <input
               id="inp"
-              type="textbox"
+              type="email"
               value={this.state.username}
               name="username"
               placeholder="Username"
